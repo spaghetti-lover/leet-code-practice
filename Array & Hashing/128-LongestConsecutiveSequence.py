@@ -12,6 +12,7 @@ class Solution:
                 longest = max(length, longest)
         return longest
 
+
 #Time complexity: O(n) but slower than the previous solution
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:

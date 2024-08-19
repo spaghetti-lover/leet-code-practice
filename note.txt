@@ -1,0 +1,12 @@
+Special syntax
+
+- List Comprehension: giống map() trong JS
+Ví dụ: [char for char in s if char.isalnum]. Trả về mảng các ký tự là chữ hoặc số của s
+
+- Filter: giong filter() trong JS
+Ví dụ: filter(str.isalnum, s.lower())
+Input:
+    + str.isalnum: Cau lenh xu ly dieu kien
+    + s.lower(): chuoi/mang/dict can dc xu ly
+Output:
+    + Tra ve mang da sua
