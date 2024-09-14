@@ -1,5 +1,6 @@
-# Time complexity: O(n log log n)
-mport math
+# Time complexity: O(nlog(log n))
+# Space complexity: O(n)
+import math
 
 class Solution:
     def countPrimes(self, n: int) -> int:

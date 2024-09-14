@@ -1,5 +1,6 @@
 # Time complexity: O(n)
 # Space complexity: O(n)
+# Explanation: We iterate through the string and append each character to the corresponding row. We keep track of the current row and whether we are going down or up. If we are at the top or bottom row, we change the direction. Finally, we join the rows and return the result.
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         
